@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin-fashion</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js" integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -23,22 +24,24 @@
 <body>
     <header class="bg-penguin">
         <section class="container mx-auto px-4 py-10">
-            <div class="sm:flex xl:justify-around items-center sm:gap-20 xl:gap-0">
-                <div>
-                    <h1 class="xl:text-7xl lg:text-5xl md:text-4xl sm:text-2xl text-2xl uppercase leading-tight">
-                        <span class="text-yellow-400">Be the penguins</span>
+            <div class="flex flex-col sm:flex-row xl:justify-around items-center sm:gap-10 xl:gap-0">
+                <div class="text-center sm:text-left lg:w-1/2 w-auto">
+                    <h1 class="xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl text-3xl uppercase leading-tight mb-3">
+                        <span class="text-yellow-400">Be the <span class="font-bold text-blue-500">"penguins"</span></span>
                         <br>
                         <span class="text-[#363958]">of winter</span>
                     </h1>
-                    <p class="text-base text-pcolor">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, ipsa.</p>
-                    <button class="px-5 py-2 bg-green-500 rounded-lg text-white uppercase hover:bg-green-700 ease-in-out duration-300">
+                    <p class="sm:text-lg text-pcolor mb-2 px-8 sm:px-0">For the coldest winter months, these heavy weight jackets and parkas bring the warmth <span class="lg:hidden font-bold">.....</span> <span class="hidden lg:inline">When the coldest winter months arrive, its time for a serious jacket and built to stand up to freezing temperatures and howling winds.</span>
+
+                    </p>
+                    <button class="sm:px-5 sm:py-2 px-12 py-2 rounded-full bg-green-500 sm:rounded-lg text-white uppercase hover:bg-green-700 ease-in-out duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                         </svg>
                         buy now
                     </button>
                 </div>
-                <div class="flex justify-center items-center">
+                <div class="flex justify-center items-center pt-10 sm:pt-0">
                     <img src="images/model.png" alt="">
                 </div>
             </div>
